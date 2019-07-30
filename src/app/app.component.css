@@ -1,0 +1,39 @@
+.body{
+    background-color: black;
+}
+.nav-wrapper{
+    background: black;
+}
+.contextbox-profile{
+    height: auto;
+    background: white;
+    /*margin: 0px;border: 0px;*/
+    
+    padding:0px;
+}
+.contextbox-career{
+    height: 1000px;
+    background: rgb(204, 0, 255);
+}
+.contextbox-tech{
+    height: 800px;
+    background: rgb(0, 255, 149);
+}
+.contextbox-passion{
+    height: 600px;
+    background: rgb(230, 34, 141);
+}
+
+.profile-content{
+    min-height: 560px;
+    background-image: url("../assets/imgs/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-header{
+    min-height: 560px;
+    background-image: url("../assets/imgs/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*transform:scaleX(-1);*/
+}
