@@ -1,9 +1,0 @@
-/*******************NPM CHEAT SHEETS*****************/
-updating package.json 
-1.for dry run
-npm-check-updates
-2.install the update
-npm-check-updates -u
-
-Listing global packages
-npm ls -g --depth 0
