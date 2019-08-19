@@ -4,44 +4,41 @@
 .nav-wrapper{
     background: black;
 }
+
+.home-header{
+    min-height: 400px;
+    background: black;  vertical-align:center;
+}
 .contextbox-profile{
     height: auto;
-    background: white;
-    /*margin: 0px;border: 0px;*/
-    
     padding:0px;
+    background-image: url("../assets/imgs/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 560px;
 }
-.contextbox-career{
-    height: 1000px;
-    background: rgb(204, 0, 255);
+ 
+.profile-content p{
+    
+    font-size: 20px;
 }
-.contextbox-tech{
-    height: 800px;
-    background: rgb(0, 255, 149);
+.contactme-content span{
+    margin: 0px;
+    padding: 0px;
 }
-.contextbox-passion{
-    height: 600px;
-    background: rgb(230, 34, 141);
+.contactme-content ul li{
+    list-style: none;
+}
+.contactme-content ul li div{
+    display: block;
+}
+.contactme-content ul li span{
+    font-size: 30px;
 }
 
-.profile-content{
+.contextbox-contactme{
     min-height: 560px;
     background-image: url("../assets/imgs/cool-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-}
-.profile-header{
-    
-    min-height: 560px;
-    background: black;
-    /*
-    background-image: url("../assets/imgs/cool-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
-    /*transform:scaleX(-1);*/
-}
-.home-header{
-    min-height: 560px;
-    background: black;  vertical-align:center;
 }
