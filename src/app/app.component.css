@@ -9,6 +9,11 @@
     min-height: 400px;
     background: black;  vertical-align:center;
 }
+.brand-header-text{
+    margin:20px;
+    font-weight: bold;
+    font-size: 30px;
+}
 .contextbox-profile{
     height: auto;
     padding:0px;
@@ -36,7 +41,7 @@
     font-size: 30px;
 }
 
-.contextbox-contactme{
+.contextbox-offwork{
     min-height: 560px;
     background-image: url("../assets/imgs/cool-background.png");
     background-repeat: no-repeat;
